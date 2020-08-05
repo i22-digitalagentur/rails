@@ -1,3 +1,8 @@
+## Rails 5.1.7.1 (August 05, 2020) ##
+
+*   [CVE-2020-8167] Check that request is same-origin prior to including CSRF token in XHRs
+
+
 ## Rails 5.1.7 (March 27, 2019) ##
 
 *   Fix issue with `button_to`'s `to_form_params`
@@ -63,12 +68,12 @@
 
 ## Rails 5.1.2 (June 26, 2017) ##
 
-*   Fix issues with scopes and engine on `current_page?` method. 
-    
+*   Fix issues with scopes and engine on `current_page?` method.
+
     Fixes #29401.
-    
+
     *Nikita Savrov*
-    
+
 *   Generate field ids in `collection_check_boxes` and `collection_radio_buttons`.
 
     This makes sure that the labels are linked up with the fields.
