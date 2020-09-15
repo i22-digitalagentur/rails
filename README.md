@@ -1,3 +1,11 @@
+# i22 fork of rails/rails for 5.1
+
+- Only intended for Rails 5.1.x!
+- Added patch for CVE-2020-1867
+- Use branch 5-1-stable in Gemfile
+
+----
+
 # Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to
